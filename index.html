@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>julio - Página Principal</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #00d9ff; /* azul claro */
+      background-color: #000; /* fundo preto */
+    }
+    .pagina-principal {
+      height: 100vh;
+      background-image: url('anime-hatsune-miku-vocaloid-anime-girls-wallpaper-preview.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #00d9ff;
+      text-shadow: 2px 2px 5px #003a55;
+    }
+    button {
+      padding: 14px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #00d9ff;
+      color: #000;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,217,255,0.6);
+    }
+    button:hover {
+      background-color: #00aacc;
+      box-shadow: 0 6px 12px rgba(0,170,204,0.8);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main class="pagina-principal">
+    <section class="conteudo-principal">
+      <h1>Julio Cezar</h1>
+      <p>Seja bem-vindo(a) à minha página principal!</p>
+      <button onclick="location.href='sobre.html'">Ir para a Página Sobre</button>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.navegar {
+  margin: 40px 0;
+}
+
+.botao {
+  padding: 12px 25px;
+  background-color: #00d9ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #00aacc;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  max-width: 1000px;
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.texto h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.texto h2 span {
+  color: #00d9ff;
+}
+
+.texto p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.botoes a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #00d9ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.botoes a:hover {
+  background-color: #00aacc;
+}
+
+.imagem {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  border: 2px solid #00d9ff;
+}
